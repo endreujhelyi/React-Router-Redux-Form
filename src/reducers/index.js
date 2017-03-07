@@ -5,7 +5,7 @@ import PostsReducer from './reducer_posts';
 
 
 const rootReducer = combineReducers({
-  post: PostsReducer,
+  posts: PostsReducer,
   form: formReducer
 });
 
